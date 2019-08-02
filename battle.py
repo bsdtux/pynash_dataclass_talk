@@ -1,5 +1,6 @@
 import click
 import json
+from dataclasses import asdict
 from simulator.attack_simulator import attack_simulator_dict
 
 
@@ -59,7 +60,17 @@ def battle_class():
 
 
 def battle_dataclass():
-    pass
+    from hero_dataclass.heros import aragon_entity, frodo_entity
+
+    attack_simulator_dict(asdict(aragon_entity))
+    attack_simulator_dict(asdict(frodo_entity))
+
+    print(aragon_entity.to_json())
+    print(frodo_entity.to_json())
+
+
+def battle_dataclass_json():
+    from hero_dataclass.heros import aragon_entity, frodo_entity
 
 
 @click.command()
@@ -67,6 +78,8 @@ def battle_dataclass():
 def cli(battle):
     battle_map = {
         'list': battle_list, 'dict': battle_dict, 'nt': battle_nt,
-        'class': battle_class}
+        'class': battle_class, 'dataclass': battle_dataclass,
+        'dataclass_ext': battle_dataclass_json
+    }
     func = battle_map.get(battle.lower(), 'list')
     func()
