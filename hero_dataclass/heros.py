@@ -67,7 +67,7 @@ frodo_entity = Hero(
     name='Frodo Baggins', species='Hobbit', age=33,
     inventory=[
         Item(name='The One Ring', weight=1.25, value=Decimal(999999.99)),
-        Item(name='Russet Gold Potatoe', weight=.12, value=Decimal(0.00))
+        Item(name='Russet Gold Potato', weight=.12, value=Decimal(0.00))
     ],
     weapon=Weapon(name='Sting', max_dmg=5, weight=4.6, value=Decimal(139.99))
 )

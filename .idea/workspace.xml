@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31aa8567-748b-4a71-8a6e-3541ff4f3371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A Dataclass Tale.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pynash_DataClass_Talk.key" beforeDir="false" afterPath="$PROJECT_DIR$/Pynash_DataClass_Talk.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battle.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hero_dataclass/heros.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero_dataclass/heros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hero_dataclass/heros_directors_cut.py" beforeDir="false" />
-    </list>
+    <list default="true" id="31aa8567-748b-4a71-8a6e-3541ff4f3371" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,12 +117,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564704719390</updated>
-      <workItem from="1564704722928" duration="12237000" />
+      <workItem from="1564704722928" duration="12281000" />
     </task>
+    <task id="LOCAL-00001" summary="* Adds dataclass to battle and adds aragon and frodo to dataclasses">
+      <created>1564722088556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564722088557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12237000" />
+    <option name="totallyTimeSpent" value="12281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -162,6 +161,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* Adds dataclass to battle and adds aragon and frodo to dataclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Adds dataclass to battle and adds aragon and frodo to dataclasses" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hero_list/__init__.py">

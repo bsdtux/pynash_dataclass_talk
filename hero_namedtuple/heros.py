@@ -11,5 +11,5 @@ aragon_nt = Hero(
 
 frodo_nt = Hero(
     name='Frodo Baggins', species='Hobbit', age=33,
-    inventory=['1 gold potatoe'], weapon=Weapon(name='Sting', max_dmg=5))
+    inventory=['1 gold potato'], weapon=Weapon(name='Sting', max_dmg=5))
 

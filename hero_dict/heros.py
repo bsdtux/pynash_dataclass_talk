@@ -13,7 +13,7 @@ frodo_dict = {
     'name': 'Frodo Baggins',
     'species': 'Hobbit',
     'age': 33,
-    'inventory': ['1 gold potatoe'],
+    'inventory': ['1 gold potato'],
     'weapon': {
         'name': 'Sting',
         'max_dmg': 5
