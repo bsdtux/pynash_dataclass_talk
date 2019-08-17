@@ -2,7 +2,7 @@ from decimal import Decimal, getcontext
 
 
 class HeroClass:
-    def __init__(self, name, species, age, inventory, weapon):
+    def __init__(self, name: str, species, age, inventory, weapon):
         self.name = name
         self.species = species
         self.age = age
