@@ -2,14 +2,14 @@ from setuptools import setup
 
 
 setup(
-    name='battle',
+    name='simulator',
     version='1.0',
-    py_modules=['battle'],
+    py_modules=['simulator'],
     install_requires=[
         'Click',
     ],
     entry_points='''
     [console_scripts]
-    battle=battle:cli
+    simulator=simulator:cli
     '''
 )

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "27e6f39dc74e5f128f7e862f1fd76f2b7c4b302ced6a99f3dd86b9891837eb21"
+            "sha256": "703c489c80d2e47018d39eb4a2c6366f282a2499a481f3b9dc8834f9f5e31dfe"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,10 +16,6 @@
         ]
     },
     "default": {
-        "battle": {
-            "editable": true,
-            "path": "."
-        },
         "click": {
             "hashes": [
                 "sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13",
@@ -27,6 +23,10 @@
             ],
             "index": "pypi",
             "version": "==7.0"
+        },
+        "simulator": {
+            "editable": true,
+            "path": "."
         }
     },
     "develop": {

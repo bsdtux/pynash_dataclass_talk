@@ -1,8 +1,0 @@
-battle.py
-setup.py
-battle.egg-info/PKG-INFO
-battle.egg-info/SOURCES.txt
-battle.egg-info/dependency_links.txt
-battle.egg-info/entry_points.txt
-battle.egg-info/requires.txt
-battle.egg-info/top_level.txt
