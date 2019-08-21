@@ -43,8 +43,6 @@ def battle_nt():
         print(frodo_nt._asdict())
 
 
-
-
 def battle_class():
     from hero_class.heros import aragon_class, frodo_class
     aragon = dict(aragon_class)
@@ -61,6 +59,7 @@ def battle_dataclass():
     attack_simulator_dict(asdict(aragon_entity))
     print()
     attack_simulator_dict(asdict(frodo_entity))
+
 
 def json_list():
     from hero_list.heros import aragon_list, frodo_list
@@ -106,7 +105,6 @@ def json_dataclass():
     print(aragon_entity.to_json())
     print()
     print(frodo_entity.to_json())
-
 
 
 @click.command()
